@@ -62,6 +62,7 @@ export default function Countries(){
                 display:"flex",
                 gap:"10px",
                 flexWrap:"wrap"
+                justifyContent:"center"
             }
         }>
         {countries.map(({name,flag,abbr})=>(<Card name={name} flag={flag} abbr={abbr} key={abbr}/>))}
