@@ -61,7 +61,7 @@ export default function Countries(){
             {
                 display:"flex",
                 gap:"10px",
-                flexWrap:"wrap"
+                flexWrap:"wrap",
                 justifyContent:"center"
             }
         }>
